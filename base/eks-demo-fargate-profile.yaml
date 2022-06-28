@@ -3,7 +3,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
   name: eks-cluster-argo
-  region: 
+  region: us-east-1
 fargateProfiles:
   - name: frontend-fargate-profile
     selectors:
