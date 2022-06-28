@@ -1,15 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-<<<<<<< HEAD
 - name: 742790453471.dkr.ecr.us-east-1.amazonaws.com/demo-frontend
   newName: 742790453471.dkr.ecr.us-east-1.amazonaws.com/demo-frontend
   newTag: 9cec9b83
-=======
-- name: 905781841335.dkr.ecr.us-east-1.amazonaws.com/demo-frontend
-  newName: 905781841335.dkr.ecr.us-east-1.amazonaws.com/demo-frontend
-  newTag: 43510edb
->>>>>>> 2bfbea2bf2b2672ba1a2487a77c74c079aae53a2
 resources:
 - ../../base
 patchesStrategicMerge:
