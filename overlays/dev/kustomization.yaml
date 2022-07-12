@@ -6,6 +6,3 @@ images:
   newTag: 9cec9b83
 resources:
 - ../../base
-patchesStrategicMerge:
-- front-deployment-patch.yaml
-- front-service-patch.yaml
